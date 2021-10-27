@@ -11,7 +11,7 @@ namespace Linked_list
             SLinkedList<int> test1 = new SLinkedList<int>();
             SStack<int> test2 = new SStack<int>();
             SQueue<string> test3 = new SQueue<string>();
-            
+
         }
     }
     

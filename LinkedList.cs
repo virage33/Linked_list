@@ -76,6 +76,8 @@ namespace Linked_list
         //remove first occurence
         public bool Remove(T data)
         {
+            if (Empty)
+                return false;
             LinkNode<T> node = this.head;
             if (node.Data.ToString() == data.ToString())
             {
